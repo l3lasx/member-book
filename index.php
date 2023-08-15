@@ -23,7 +23,7 @@ $num = $result->num_rows;
 
 <body>
     <div class="row">
-        <!-- left side side bar -->
+        <!-- left side bar -->
         <div class="col-2 position-fixed top-0 bottom-0 start-0 border-end" style="right: 255px; padding-top: 30px;">
             <div class="container d-flex align-items-start flex-column">
                 <div class="row logo">
