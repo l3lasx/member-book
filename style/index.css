@@ -1,0 +1,57 @@
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.icon {
+    cursor: pointer;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.icon:hover {
+    background-color: rgb(235, 233, 233);
+}
+
+.icon div{
+    padding: 10px 10px 10px 0;
+}
+
+a.w-100.text-dark:focus {
+    outline: none;
+}
+
+.icon div .fa-solid{
+    font-size: 25px;
+}
+
+.profile-custom {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+}
+
+.burger-bt {
+    position: fixed;
+    bottom: 20px;
+}
+.burger-icon {
+    padding: 0;
+}
+.burger-icon div{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 3px 0;
+}
+
+.header {
+    position: relative;
+}
+
+.header .row .col h4{
+    margin: 0;
+}
