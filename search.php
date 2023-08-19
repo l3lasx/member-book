@@ -7,7 +7,7 @@ include("./dbconnnect.php");
 
 $sql = "SELECT * FROM member WHERE firstName LIKE ? OR lastName LIKE ? OR nickName LIKE ? OR phone LIKE ? OR email LIKE ?";
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("sssss", $query, $searchTerm, $searchTerm, $searchTerm, $searchTerm);
+$stmt->bind_param("sssss", $searchTerm, $searchTerm, $searchTerm, $searchTerm, $searchTerm);
 $stmt->execute();
 $result = $stmt->get_result();
 
